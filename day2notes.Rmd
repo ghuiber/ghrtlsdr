@@ -1,0 +1,14 @@
+---
+title: "RTL-SDR experiment, day 2"
+author: "Gabi Huiber"
+date: "February 1, 2015"
+output: html_document
+---
+
+See [getting started](http://enoriver.net/index.php/2015/02/01/getting-started-with-the-nooelec-nesdr-nano-on-os-x-yosemite/) for how I got here. 
+
+In the process of getting the dongle up and running, I found [the big list of RTL-SDR supported software](http://www.rtl-sdr.com/big-list-rtl-sdr-supported-software/). On that list was GQRX, which [this hobbyist](http://www.radiohobbyist.org/blog/?p=1220) installed from MacPorts without a problem. I couldn't: `sudo port install cqrx` has a long, long chain of dependencies. One of them is [GrOsmoSDR](http://sdr.osmocom.org/trac/wiki/GrOsmoSDR) and as of that attempt its git repo was unresponsive. 
+
+This is an unusual kind of problem, and indeed I just checked now `sudo port install gr-osmosdr` and it worked fine. After that, `sudo port install gqrx` completed quickly.
+
+OK, so now what? There's something [here](http://web.stanford.edu/class/ee179/labs/Lab1.html).
