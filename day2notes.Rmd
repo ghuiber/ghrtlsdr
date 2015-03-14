@@ -5,7 +5,7 @@ date: "February 1, 2015"
 output: html_document
 ---
 
-See [getting started](http://enoriver.net/index.php/2015/02/01/getting-started-with-the-nooelec-nesdr-nano-on-os-x-yosemite/) for how I got here. 
+See [getting started](http://www.enoriver.net/2015/02/01/NooELEC-SDR/) for how I got here. 
 
 In the process of getting the dongle up and running, I found [the big list of RTL-SDR supported software](http://www.rtl-sdr.com/big-list-rtl-sdr-supported-software/). On that list was [Linrad](http://www.rtl-sdr.com/spotlight-linrad/) which came highly recommeded but there's no Mac port for it and my attempts to compile it from source failed.
 
